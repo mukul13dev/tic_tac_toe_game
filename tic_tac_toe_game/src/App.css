@@ -1,0 +1,23 @@
+/* Game Css */
+body{
+  background-color: #000000;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100px;
+}
+
+.icon{
+  font-size: 35px;
+  color:#ffffff;
+}
